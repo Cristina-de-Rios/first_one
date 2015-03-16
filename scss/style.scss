@@ -1,3 +1,99 @@
 .padding-30{
 	padding: 30px 0;
 } 
+
+.rowX{
+	  max-width: 80rem;
+}
+
+.difference{
+	margin: 20px 0;
+	p{
+		max-width: 295px;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+.step{
+	background: #F1F1F1;
+	padding: 20px 0;
+}
+
+.sharp{
+	margin-top: 30px;
+	p{
+		line-height: 5px;
+	}
+}
+
+.cavity{
+	background: white url(../img/pant3-2.jpg) center center;
+	width: 100%;
+	height: auto;
+	min-height: 430px;
+	padding: 20px 0;
+	&.second{
+		background-image: url(../img/pant3-4.jpg);
+	}
+}
+
+.faq-browse{
+	background: #F1F1F1;
+	padding-top: 50px;
+	.faq-list{
+		list-style-type: none;
+		text-align: center;
+		margin-top: 20px;
+		padding-bottom: 30px;
+		li{
+			display: inline-block;
+			padding: 8px 15px;
+			border-right: 1px solid #231F20;
+			&.active{
+				a{
+					border-bottom: 1px solid #231F20;
+				}
+			}
+			a{
+				color: #231F20;	
+			}
+		}
+	}
+}
+
+.faq-accordions{
+	.accordion .accordion-navigation > a, .accordion dd > a{
+		background: none;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 0;
+		h4{
+			margin: 0;
+		}
+	}
+	.accordion .accordion-navigation > .content, .accordion dd > .content{
+		text-align: center;
+		padding-top: 0;
+	}
+}
+
+.thecontent{
+	display: none;
+	&:first-child{
+		display: block;
+	}
+}
+
+.banner_hiw{
+	background: rgb(244, 246, 245) url(../img/pant3-3.jpg) center center;
+	width: 100%;
+	height: auto;
+	min-height: 450px;
+	padding: 20px 0;
+	&.another{
+		background-image: url(../img/pant3-5.jpg);
+		background-position: center center;
+		min-height: 400px;
+	}
+}
